@@ -1,0 +1,84 @@
+@media only screen and (max-width: 1197px) {
+  .containeer {
+    max-width: 802px;
+  }
+}
+
+@media only screen and (max-width: 886px) {
+  .booking-section .container .second-col {
+    flex-basis: 70%;
+    width: 100%;
+    padding: 20px;
+  }
+  .booking-section .container .second-col .img-banner .banner h4 {
+    padding: 130px;
+    border-radius: 100%;
+  }
+  .fade-in {
+    opacity: 0;
+    transform: translateX(0);
+    transition: opacity 1s ease, transform 1s ease;
+  }
+  .fade-in.active {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  .main-section .container .second-section-img {
+    margin-top: 80px;
+  }
+  .trust-section .section-info {
+    flex-direction: column;
+  }
+  .trust-section h3 {
+    text-align: center;
+  }
+  .trust-section .section-info .first-col button {
+    padding: 10px;
+    margin: 10px 0px;
+    width: 30%;
+    position: static;
+    border: none;
+    background-color: #f2cc6c;
+    color: white;
+    transition: all 0.5s ease;
+  }
+  .apply-form {
+    margin-top: 180px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .containeer {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .containeer .card .face {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .apply-form form {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .apply-form form .second-col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 48%;
+    margin-left: 0px;
+  }
+  .booking-section .container .first-col {
+    flex-basis: 100%;
+    padding: 10px 0px;
+    width: 100%;
+    border: 8px solid #f2cc6c;
+  }
+  .booking-section .container .first-col .second-info input {
+    top: 30px;
+    padding: 7px;
+    width: 100%;
+  }
+}

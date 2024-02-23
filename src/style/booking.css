@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../media/fonts/Montserrat/Montserrat-Light.ttf"),
+    url("../media/fonts/Montserrat/Montserrat-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../media/fonts/Montserrat/Montserrat-SemiBold.ttf"),
+    url("../media/fonts/Montserrat/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #252525;
+  font-size: 20px;
+  font-family: "Montserrat";
+}
+
+.container {
+  min-width: 200px;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.fade-in {
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade-in.active {
+  opacity: 1;
+  transform: translateX(0px);
+}
+header {
+  margin-top: 30px;
+}
+
+header .site-logo img {
+  width: 15%;
+  display: block;
+  margin: 0 auto;
+}
+
+header nav {
+  margin-top: 30px;
+}
+
+header nav ul {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding-left: 30px;
+  font-size: 15px;
+}
+
+header nav ul li a:hover {
+  color: rgb(196, 196, 23);
+}
+
+header nav ul li .active {
+  color: rgb(196, 196, 23);
+}
+
+footer {
+  background-color: #f2cc6c;
+  padding: 20px 0px;
+}
+
+footer .footer-info {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0p;
+}
+
+footer .footer-info .first-col {
+  flex-basis: 50%;
+}
+
+footer .footer-info .first-col img {
+  width: 200px;
+  padding: 0px 0px 20px 0px;
+}
+
+footer .footer-info .first-col h2 {
+  color: white;
+  padding: 0px 0px 10px 0px;
+}
+
+footer .footer-info .first-col p {
+  color: white;
+}
+
+footer .footer-info .first-col h3 {
+  color: white;
+  padding: 20px 0px 10px 0px;
+}
+
+footer .author {
+  font-size: 15px;
+  color: white;
+  padding: 30px 0px;
+}
+
+footer .second-col {
+  flex-basis: 50%;
+}
+
+footer .second-col h2 {
+  color: white;
+  padding: 80px 0px 20px 0px;
+}
+
+footer .second-col ul li {
+  list-style: none;
+  padding: 5px 0px;
+}
+
+footer .second-col ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .second-col ul li a:hover {
+  opacity: 0.5;
+}

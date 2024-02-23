@@ -1,0 +1,243 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../media/fonts/Montserrat/Montserrat-Light.ttf"),
+    url("../media/fonts/Montserrat/Montserrat-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../media/fonts/Montserrat/Montserrat-SemiBold.ttf"),
+    url("../media/fonts/Montserrat/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #252525;
+  font-size: 20px;
+  font-family: "Montserrat";
+}
+
+.container {
+  min-width: 200px;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.fade-in {
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade-in.active {
+  opacity: 1;
+  transform: translateX(0px);
+}
+header {
+  margin-top: 30px;
+}
+
+header .site-logo img {
+  width: 15%;
+  display: block;
+  margin: 0 auto;
+}
+
+header nav {
+  margin-top: 30px;
+}
+
+header nav ul {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding-left: 30px;
+  font-size: 15px;
+}
+
+header nav ul li a:hover {
+  color: rgb(196, 196, 23);
+}
+
+header nav ul li .active {
+  color: rgb(196, 196, 23);
+}
+
+.main-section {
+  background-image: url(../media/images/aircrafts/CRJ-200-interior.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  position: relative;
+  top: -150px;
+  height: 120vh;
+  background-attachment: fixed;
+}
+
+.main-section .main-section-info {
+  padding: 250px 0px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.main-section .main-section-info h1 {
+  font-size: 72px;
+}
+
+.main-section .main-section-info h2 {
+  font-size: 25px;
+  padding: 10px 0px;
+}
+
+.main-section .second-section-img .first-col img {
+  position: relative;
+  top: -370px;
+  width: 70%;
+  z-index: 1;
+}
+
+.main-section .second-section-img .second-col {
+  display: flex;
+  position: relative;
+  top: -610px;
+  z-index: 1;
+}
+
+.main-section .second-section-img .second-col .first-img {
+  width: 50%;
+  height: 100%;
+}
+
+.main-section .second-section-img .second-col .second-img {
+  width: 50%;
+}
+
+body .container .search-h2 {
+  color: white;
+  padding: 10px 0px;
+  text-align: center;
+  font-size: 32px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+td {
+  color: white;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.book-button {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #f2cc6c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.book-button:hover {
+  background-color: #333;
+}
+
+footer {
+  background-color: #f2cc6c;
+  padding: 20px 0px;
+  margin-top: 70px;
+}
+
+footer .footer-info {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0p;
+}
+
+footer .footer-info .first-col {
+  flex-basis: 50%;
+}
+
+footer .footer-info .first-col img {
+  width: 200px;
+  padding: 0px 0px 20px 0px;
+}
+
+footer .footer-info .first-col h2 {
+  color: white;
+  padding: 0px 0px 10px 0px;
+}
+
+footer .footer-info .first-col p {
+  color: white;
+}
+
+footer .footer-info .first-col h3 {
+  color: white;
+  padding: 20px 0px 10px 0px;
+}
+
+footer .author {
+  font-size: 15px;
+  color: white;
+  padding: 30px 0px;
+}
+
+footer .second-col {
+  flex-basis: 50%;
+}
+
+footer .second-col h2 {
+  color: white;
+  padding: 80px 0px 20px 0px;
+}
+
+footer .second-col ul li {
+  list-style: none;
+  padding: 5px 0px;
+}
+
+footer .second-col ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .second-col ul li a:hover {
+  opacity: 0.5;
+}

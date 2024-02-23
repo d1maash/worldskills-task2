@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style/bookingStyle.css" />
+    <link rel="stylesheet" href="src/style/main-media.css" />
+    <link
+      rel="stylesheet"
+      href="src/style/fonts/fontawesome-free-5.14.0-web/css/all.min.css"
+    />
+
+    <title>Flight Pool</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="site-logo">
+          <img
+            src="src/media/logo-removebg-preview.png"
+            class="logo class1 class2 test-logo"
+            alt=""
+          />
+        </div>
+        <div class="links">
+          <nav>
+            <ul>
+              <li>
+                <a href="”#”" class="home-page active">Home</a>
+              </li>
+              <li>
+                <a href="”#”" class="”test-nav-1”">Promotions</a>
+              </li>
+              <li>
+                <a href="”#”" class="”test-nav-2”">Booking</a>
+              </li>
+              <li>
+                <a href="”#”" class="”test-nav-3”">Check-in for the flight </a>
+              </li>
+              <li>
+                <a href="”#”" class="”test-nav-4”">Personal account</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    <style>
+    
+     
+
+      h2 {
+        margin-bottom: 20px;
+      }
+
+      form {
+        margin-bottom: 20px;
+      }
+
+      .passenger-info {
+        margin-bottom: 20px;
+      }
+
+      .passenger-info input {
+        margin-bottom: 10px;
+      }
+
+      .buttons {
+        text-align: center;
+      }
+
+      .buttons button {
+        padding: 10px 20px;
+        margin: 0 10px;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      .buttons button:hover {
+        background-color: #333;
+      }
+    </style>
+  <body>
+    <div class="container">
+      <h2>Booking</h2>
+      <form id="booking-form">
+        <div class="flight-info">
+          <div class="flight">
+            <h3>Flight Information</h3>
+            <input type="text" class="test-5-fc" placeholder="Flight number" />
+            <input
+              type="text"
+              class="test-5-fcity"
+              placeholder="Departure city"
+            />
+            <input
+              type="text"
+              class="test-5-from"
+              placeholder="Departure airport"
+            />
+            <input type="text" class="test-5-dd" placeholder="Departure date" />
+            <input type="text" class="test-5-dt" placeholder="Departure time" />
+            <input
+              type="text"
+              class="test-5-tcity"
+              placeholder="Destination city"
+            />
+            <input
+              type="text"
+              class="test-5-to"
+              placeholder="Destination airport"
+            />
+            <input type="text" class="test-5-at" placeholder="Arrival time" />
+            <input type="text" class="test-5-fp" placeholder="Cost" />
+          </div>
+        </div>
+
+        <div class="passenger-info">
+          <h3>Passenger Information</h3>
+          <div class="passenger">
+            <input type="text" class="test-5-name" placeholder="First name" />
+            <input type="text" class="test-5-last" placeholder="Last name" />
+            <input type="date" class="test-5-dob" placeholder="Date of birth" />
+            <input
+              type="text"
+              class="test-5-doc"
+              placeholder="Document number"
+            />
+          </div>
+        </div>
+
+        <div class="buttons">
+          <button type="button" class="test-5-add">Add Passenger</button>
+          <button type="button" class="test-5-remove">Remove Passenger</button>
+          <p>Total Cost: <span class="test-5-price">$0</span></p>
+          <button type="submit" class="test-5-book">Book</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
