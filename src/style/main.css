@@ -1,609 +1,610 @@
 @font-face {
-  font-family: "Montserrat";
-  src: url("../media/fonts/Montserrat/Montserrat-Light.ttf"),
-    url("../media/fonts/Montserrat/Montserrat-Light.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
+    font-family: "Montserrat";
+    src: url("../media/fonts/Montserrat/Montserrat-Light.ttf"),
+        url("../media/fonts/Montserrat/Montserrat-Light.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "Montserrat";
-  src: url("../media/fonts/Montserrat/Montserrat-SemiBold.ttf"),
-    url("../media/fonts/Montserrat/Montserrat-SemiBold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
+    font-family: "Montserrat";
+    src: url("../media/fonts/Montserrat/Montserrat-SemiBold.ttf"),
+        url("../media/fonts/Montserrat/Montserrat-SemiBold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  background-color: #252525;
-  font-size: 20px;
-  font-family: "Montserrat";
+    background-color: #252525;
+    font-size: 20px;
+    font-family: "Montserrat";
 }
 
 .container {
-  min-width: 200px;
-  max-width: 1240px;
-  margin: 0 auto;
+    min-width: 200px;
+    max-width: 1240px;
+    margin: 0 auto;
 }
+
 .fade-in {
-  opacity: 0;
-  transform: translateX(-20px);
-  transition: opacity 1s ease, transform 1s ease;
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 1s ease, transform 1s ease;
 }
 
 .fade-in.active {
-  opacity: 1;
-  transform: translateX(0px);
+    opacity: 1;
+    transform: translateX(0px);
 }
+
 header {
-  margin-top: 30px;
+    margin-top: 30px;
 }
 
 header .site-logo img {
-  width: 15%;
-  display: block;
-  margin: 0 auto;
+    width: 15%;
+    display: block;
+    margin: 0 auto;
 }
 
 header nav {
-  margin-top: 30px;
+    margin-top: 30px;
 }
 
 header nav ul {
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 header nav ul li {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 header nav ul li a {
-  color: white;
-  text-decoration: none;
-  padding-left: 30px;
-  font-size: 15px;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    font-size: 15px;
 }
 
 header nav ul li a:hover {
-  color: rgb(196, 196, 23);
+    color: rgb(196, 196, 23);
 }
 
 header nav ul li .active {
-  color: rgb(196, 196, 23);
+    color: rgb(196, 196, 23);
 }
 
 .main-section {
-  background-image: url(../media/images/197152c818f021a2f4db244ec5328487.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  z-index: -1;
-  position: relative;
-  top: -150px;
-  height: 120vh;
-  background-attachment: fixed;
+    background-image: url(../media/images/197152c818f021a2f4db244ec5328487.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    position: relative;
+    top: -150px;
+    height: 120vh;
+    background-attachment: fixed;
 }
 
 .main-section .main-section-info {
-  padding: 250px 0px;
-  text-align: center;
-  color: white;
-  font-weight: bold;
+    padding: 250px 0px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
 }
 
 .main-section .main-section-info h1 {
-  font-size: 72px;
+    font-size: 72px;
 }
 
 .main-section .main-section-info h2 {
-  font-size: 25px;
-  padding: 10px 0px;
+    font-size: 25px;
+    padding: 10px 0px;
 }
 
 .main-section .second-section-img .first-col img {
-  position: relative;
-  top: -370px;
-  width: 70%;
-  z-index: 1;
+    position: relative;
+    top: -370px;
+    width: 70%;
+    z-index: 1;
 }
 
 .main-section .second-section-img .second-col {
-  display: flex;
-  position: relative;
-  top: -610px;
-  z-index: 1;
+    display: flex;
+    position: relative;
+    top: -610px;
+    z-index: 1;
 }
 
 .main-section .second-section-img .second-col .first-img {
-  width: 50%;
-  height: 100%;
+    width: 50%;
+    height: 100%;
 }
 
 .main-section .second-section-img .second-col .second-img {
-  width: 50%;
+    width: 50%;
 }
 
 /* info section */
 
 .containeer {
-  min-width: 200px;
-  max-width: 1240px;
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 15px auto;
-  top: -300px;
+    min-width: 200px;
+    max-width: 1240px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px auto;
+    top: -300px;
 }
 
 .containeer .card {
-  position: relative;
-  cursor: pointer;
+    position: relative;
+    cursor: pointer;
 }
 
 .containeer .card .face {
-  width: 300px;
-  height: 200px;
-  transition: 0.5s;
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
 }
 
 .containeer .card .face.face1 {
-  position: relative;
-  background-image: url(../media/images/promotions/promotion1.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
-  transform: translateY(100px);
+    position: relative;
+    background-image: url(../media/images/promotions/promotion1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
 }
 
 .containeer .card:hover .face.face1 {
-  background-image: url(../media/images/promotions/promotion1.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  transform: translateY(0);
+    background-image: url(../media/images/promotions/promotion1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: translateY(0);
 }
 
 .containeer .card .face.face1 .content {
-  transition: 0.5s;
+    transition: 0.5s;
 }
 
 .containeer .card:hover .face.face1 .content {
-  opacity: 1;
+    opacity: 1;
 }
 
 .containeer .card .face.face1 .content img {
-  max-width: 100px;
+    max-width: 100px;
 }
 
 .containeer .card .face.face1 .content h3 {
-  margin: 10px 0 0;
-  padding: 0;
-  color: #fff;
-  text-align: center;
-  font-size: 1.5em;
+    margin: 10px 0 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
 }
 
 .containeer .card .face.face2 {
-  position: relative;
-  overflow: hidden;
-  background-color: #f2cc6c;
-  display: flex;
-  color: white;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  box-sizing: border-box;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
-  transform: translateY(-100px);
+    position: relative;
+    overflow: hidden;
+    background-color: #f2cc6c;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
 }
 
 .containeer .card:hover .face.face2 {
-  transform: translateY(0);
+    transform: translateY(0);
 }
 
 .containeer .card .face.face2 .content p {
-  margin: 0;
-  font-size: 15px;
+    margin: 0;
+    font-size: 15px;
 }
 
 .containeer .card .face.face2 .content a {
-  margin: 15px 0 0;
-  display: inline-block;
-  text-decoration: none;
-  font-weight: 900;
-  color: #333;
-  padding: 5px;
-  border: 1px solid #333;
+    margin: 15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #333;
+    padding: 5px;
+    border: 1px solid #333;
 }
 
 .containeer .card .face.face2 .content a:hover {
-  background: #333;
-  color: #fff;
+    background: #333;
+    color: #fff;
 }
 
 .containeer .card .face.id2 {
-  position: relative;
-  background-image: url(../media/images/promotions/promotion2.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  z-index: 1;
-  transform: translateY(100px);
+    position: relative;
+    background-image: url(../media/images/promotions/promotion2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 1;
+    transform: translateY(100px);
 }
 
 .containeer .card:hover .face.id2 {
-  background-image: url(../media/images/promotions/promotion2.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  transform: translateY(0);
+    background-image: url(../media/images/promotions/promotion2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: translateY(0);
 }
 
 .containeer .card .face.id3 {
-  position: relative;
-  background-image: url(../media/images/promotions/promotion3.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  z-index: 1;
-  transform: translateY(100px);
+    position: relative;
+    background-image: url(../media/images/promotions/promotion3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 1;
+    transform: translateY(100px);
 }
 
 .containeer .card:hover .face.id3 {
-  background-image: url(../media/images/promotions/promotion3.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  transform: translateY(0);
+    background-image: url(../media/images/promotions/promotion3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: translateY(0);
 }
 
 .containeer .card .face.id4 {
-  position: relative;
-  background-image: url(../media/images/promotions/promotion4.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  z-index: 1;
-  transform: translateY(100px);
+    position: relative;
+    background-image: url(../media/images/promotions/promotion4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 1;
+    transform: translateY(100px);
 }
 
 .containeer .card:hover .face.id4 {
-  background-image: url(../media/images/promotions/promotion4.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  transform: translateY(0);
+    background-image: url(../media/images/promotions/promotion4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: translateY(0);
 }
 
 .booking-section {
-  position: relative;
-  top: -250px;
+    position: relative;
+    top: -250px;
 }
 
 .booking-section .container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex-basis: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: auto;
 }
 
 .booking-section .container .first-col {
-  flex-basis: 70%;
-  padding: 30px;
-  border: 8px solid #f2cc6c;
+    flex-basis: 70%;
+    padding: 30px;
+    border: 8px solid #f2cc6c;
 }
 
 .booking-section .container .first-col h3 {
-  color: white;
-  font-weight: lighter;
-  font-size: 25px;
-  padding: 20px 0px;
+    color: white;
+    font-weight: lighter;
+    font-size: 25px;
+    padding: 20px 0px;
 }
 
 .booking-section .container .first-col .booking-form {
-  display: flex;
+    display: flex;
 }
 
 .booking-section .container .first-col .first-info label {
-  font-size: 15px;
-  color: white;
+    font-size: 15px;
+    color: white;
 }
 
-.booking-section .container .first-col .second-info {
-}
+.booking-section .container .first-col .second-info {}
 
 .booking-section .container .first-col .second-info label {
-  font-size: 15px;
-  width: 100%;
-  color: white;
+    font-size: 15px;
+    width: 100%;
+    color: white;
 }
 
 .booking-section .container .first-col .second-info input {
-  top: 30px;
-  padding: 7px;
+    top: 30px;
+    padding: 7px;
 }
 
 .booking-section .container .first-col button {
-  padding: 15px;
-  border: none;
-  background-color: #f2cc6c;
-  color: white;
-  border-radius: 5px 5px 0px 0px;
-  transition: all 0.8s ease;
-  width: 90px;
+    padding: 15px;
+    border: none;
+    background-color: #f2cc6c;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+    transition: all 0.8s ease;
+    width: 90px;
 }
 
 .booking-section .container .first-col button:hover {
-  border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 5px 5px;
 }
 
 .booking-section .container .first-col .booking-form {
-  padding: 20px 0px;
+    padding: 20px 0px;
 }
 
 .booking-section .container .first-col .booking-form .first-info {
-  padding: 0px 40px 0px 0px;
+    padding: 0px 40px 0px 0px;
 }
 
 .booking-section .container .first-col #costResult {
-  color: white;
-  padding: 10px 0px;
+    color: white;
+    padding: 10px 0px;
 }
 
 .booking-section .container .first-col #probabilityResult {
-  color: white;
-  padding: 0px 0px 30px 0px;
+    color: white;
+    padding: 0px 0px 30px 0px;
 }
 
 .booking-section .container .second-col {
-  flex-basis: 30%;
-  padding: 20px;
+    flex-basis: 30%;
+    padding: 20px;
 }
 
 .booking-section .container .second-col {
-  background-color: #f2cc6c;
-  color: white;
-  text-align: center;
-  justify-content: center;
+    background-color: #f2cc6c;
+    color: white;
+    text-align: center;
+    justify-content: center;
 }
 
 .img-banner .banner {
-  padding: 100px 0px;
+    padding: 100px 0px;
 }
 
 .img-banner .banner h4 {
-  background-image: url(../media/images/aircrafts/960.jpg);
-  padding: 50px;
-  color: azure;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 40%;
+    background-image: url(../media/images/aircrafts/960.jpg);
+    padding: 50px;
+    color: azure;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 40%;
 }
 
 .trust-section {
-  margin: -120px 0px 0px 0px;
+    margin: -120px 0px 0px 0px;
 }
 
 .trust-section .section-info {
-  display: flex;
-  flex-wrap: wrap;
-  flex-basis: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: auto;
 }
 
 .trust-section .section-info .first-col {
-  flex-basis: 60%;
+    flex-basis: 60%;
 }
 
 .trust-section .section-info .second-col {
-  flex-basis: 40%;
+    flex-basis: 40%;
 }
 
 .trust-section .section-info .first-col p {
-  color: white;
+    color: white;
 }
 
 .trust-section h3 {
-  color: white;
-  font-size: 42px;
-  padding: 30px 0px;
+    color: white;
+    font-size: 42px;
+    padding: 30px 0px;
 }
 
 .trust-section .section-info img {
-  width: 100%;
+    width: 100%;
 }
 
 .trust-section .section-info .first-col p {
-  padding: 0px 30px 0px 0px;
+    padding: 0px 30px 0px 0px;
 }
 
 .trust-section .section-info .first-col button {
-  padding: 10px;
-  top: 30px;
-  position: relative;
-  border: none;
-  background-color: #f2cc6c;
-  color: white;
-  transition: all 0.5s ease;
+    padding: 10px;
+    top: 30px;
+    position: relative;
+    border: none;
+    background-color: #f2cc6c;
+    color: white;
+    transition: all 0.5s ease;
 }
 
 .trust-section .section-info .first-col button:hover {
-  background: none;
-  padding: 20px;
-  border: 1px solid #f2cc6c;
-  color: #f2cc6c;
+    background: none;
+    padding: 20px;
+    border: 1px solid #f2cc6c;
+    color: #f2cc6c;
 }
 
 .apply-form {
-  margin-top: 80px;
+    margin-top: 80px;
 }
 
 .apply-form h3 {
-  color: white;
+    color: white;
 }
 
 .apply-form form {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .apply-form form .first-col {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
 }
 
 .apply-form form .first-col label {
-  color: #f2cc6c;
-  padding: 15px 10px 10px 0px;
+    color: #f2cc6c;
+    padding: 15px 10px 10px 0px;
 }
 
 .apply-form form .first-col input {
-  width: 100%;
-  padding: 8px 10px;
-  border-radius: 3px;
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 3px;
 }
 
 .apply-form form .second-col {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 48%;
-  margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 48%;
+    margin-left: 10px;
 }
 
 .apply-form form .second-col label {
-  color: #f2cc6c;
-  padding: 15px 10px 10px 0px;
+    color: #f2cc6c;
+    padding: 15px 10px 10px 0px;
 }
 
 .apply-form form .second-col input {
-  width: 100%;
-  padding: 8px 10px;
-  border-radius: 3px;
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 3px;
 }
 
 .apply-form form .second-col button {
-  position: relative;
-  top: 50px;
-  padding: 10px;
-  width: 50%;
-  background-color: #f2cc6c;
-  border: none;
-  border-radius: 15px;
-  color: white;
+    position: relative;
+    top: 50px;
+    padding: 10px;
+    width: 50%;
+    background-color: #f2cc6c;
+    border: none;
+    border-radius: 15px;
+    color: white;
 }
 
 .subscribe-section {
-  margin-top: 60px;
+    margin-top: 60px;
 }
 
 .subscribe-section h3 {
-  color: white;
-  font-size: 32px;
+    color: white;
+    font-size: 32px;
 }
 
 .subscribe-section form {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0px;
 }
 
 .subscribe-section form input {
-  flex-basis: 70%;
-  padding: 10px;
+    flex-basis: 70%;
+    padding: 10px;
 }
 
 .subscribe-section form button {
-  margin-left: 30px;
-  flex-basis: 10%;
-  width: 100%;
-  background-color: #f2cc6c;
-  color: white;
-  border-radius: 10px;
+    margin-left: 30px;
+    flex-basis: 10%;
+    width: 100%;
+    background-color: #f2cc6c;
+    color: white;
+    border-radius: 10px;
 }
 
 footer {
-  background-color: #f2cc6c;
-  padding: 20px 0px;
+    background-color: #f2cc6c;
+    padding: 20px 0px;
 }
 
 footer .footer-info {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 20px 0p;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0p;
 }
 
 footer .footer-info .first-col {
-  flex-basis: 50%;
+    flex-basis: 50%;
 }
 
 footer .footer-info .first-col img {
-  width: 200px;
-  padding: 0px 0px 20px 0px;
+    width: 200px;
+    padding: 0px 0px 20px 0px;
 }
 
 footer .footer-info .first-col h2 {
-  color: white;
-  padding: 0px 0px 10px 0px;
+    color: white;
+    padding: 0px 0px 10px 0px;
 }
 
 footer .footer-info .first-col p {
-  color: white;
+    color: white;
 }
 
 footer .footer-info .first-col h3 {
-  color: white;
-  padding: 20px 0px 10px 0px;
+    color: white;
+    padding: 20px 0px 10px 0px;
 }
 
 footer .author {
-  font-size: 15px;
-  color: white;
-  padding: 30px 0px;
+    font-size: 15px;
+    color: white;
+    padding: 30px 0px;
 }
 
 footer .second-col {
-  flex-basis: 50%;
+    flex-basis: 50%;
 }
 
 footer .second-col h2 {
-  color: white;
-  padding: 80px 0px 20px 0px;
+    color: white;
+    padding: 80px 0px 20px 0px;
 }
 
 footer .second-col ul li {
-  list-style: none;
-  padding: 5px 0px;
+    list-style: none;
+    padding: 5px 0px;
 }
 
 footer .second-col ul li a {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 footer .second-col ul li a:hover {
-  opacity: 0.5;
+    opacity: 0.5;
 }
